@@ -6,6 +6,9 @@ import java.util.Scanner;
 public class FNUtileria {
     private static Scanner fnScanner = new Scanner(System.in);
 
+    /**
+     * Imprime en pantalla las credenciales del autor
+     */
     public static void fnDatosPersonales() {
         System.out.println("CEDULA:  1724721301");
         System.out.println("CORREO:  FERNANDO.NAGUA@EPN.EDU.EC");

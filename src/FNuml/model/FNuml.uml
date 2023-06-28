@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_teAy8RYJEe697oCmqbFb4A" name="F">
+  <packagedElement xmi:type="uml:Class" xmi:id="_wSj-MBYJEe697oCmqbFb4A" name="FNHorarioFormato">
+    <ownedAttribute xmi:id="_2R64kBYJEe697oCmqbFb4A" name="fnNombreMedico" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2SDbcBYJEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2SECgBYJEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_We9AwBYKEe697oCmqbFb4A" name="fnCodigo" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_We9AwRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_We9n0BYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_YjnnMBYKEe697oCmqbFb4A" name="fnMateria" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YjoOQBYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YjoOQRYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_da5fMBYKEe697oCmqbFb4A" name="fnParalelo" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_da5fMRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_da5fMhYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_ewMeMBYKEe697oCmqbFb4A" name="fnAula" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ewMeMRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ewMeMhYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_e0r8oBYKEe697oCmqbFb4A" name="fnCreditos" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e0sjsBYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e0sjsRYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_e7V-QBYKEe697oCmqbFb4A" name="fnObservacion" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e7V-QRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e7V-QhYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_e-xFsBYKEe697oCmqbFb4A" name="fnHoraLunes" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_e-xswBYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_e-xswRYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fBcmQBYKEe697oCmqbFb4A" name="fnHoraMartes" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fBcmQRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fBcmQhYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_fHFUMBYKEe697oCmqbFb4A" name="fnHoraMiercoles" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fHF7QBYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fHF7QRYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_uUvKIBYKEe697oCmqbFb4A" name="fnHoraJueves" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uUvxMBYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uUvxMRYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_uaS_kBYKEe697oCmqbFb4A" name="fnHoraViernes" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uaS_kRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uaTmoBYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_uhjeIBYKEe697oCmqbFb4A" name="fnHoraSabado" type="_Hh2vUBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uhjeIRYKEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_uhkFMBYKEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Ass1YBYKEe697oCmqbFb4A" name="Integer"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CcUY4BYKEe697oCmqbFb4A" name="void ()"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_CzlpYBYKEe697oCmqbFb4A" name="Scanner"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_DEnH8BYKEe697oCmqbFb4A" name="String"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Hh2vUBYKEe697oCmqbFb4A" name="ArrayLIst&lt;Integer>"/>
+  <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_ScKgwBYKEe697oCmqbFb4A" name="HashSet&lt;String>"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CS46oBYLEe697oCmqbFb4A" name="FNHorarioBase">
+    <ownedAttribute xmi:id="_KCBJgBYLEe697oCmqbFb4A" name="fnEspecialidades" type="_ScKgwBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KCBwkBYLEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KCBwkRYLEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_KGXeABYLEe697oCmqbFb4A" name="fnAlumnos" type="_ScKgwBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KGXeARYLEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KGXeAhYLEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_MqbgwBYMEe697oCmqbFb4A" name="fnHorario" type="_mA2y8BYLEe697oCmqbFb4A" association="_MqUzEBYMEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MqbgwRYMEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MqbgwhYMEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_SsdKEBYLEe697oCmqbFb4A" name="FNApp">
+    <ownedAttribute xmi:id="_UhZ5gBYLEe697oCmqbFb4A" name="fnHorarioRutaDirectorio" type="_DEnH8BYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UhZ5gRYLEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UhZ5ghYLEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_UmWq8BYLEe697oCmqbFb4A" name="fnSc" visibility="protected" type="_CzlpYBYKEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_UmWq8RYLEe697oCmqbFb4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_UmXSABYLEe697oCmqbFb4A" value="1"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_Ux9eABYLEe697oCmqbFb4A" name="main">
+      <ownedParameter xmi:id="_dS5kUBYLEe697oCmqbFb4A" name="args" type="_DEnH8BYKEe697oCmqbFb4A"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mA2y8BYLEe697oCmqbFb4A" name="FNHorario">
+    <generalization xmi:id="_U50kEBYMEe697oCmqbFb4A" general="_wSj-MBYJEe697oCmqbFb4A"/>
+    <ownedAttribute xmi:id="_Mqcu4BYMEe697oCmqbFb4A" name="" type="_CS46oBYLEe697oCmqbFb4A" association="_MqUzEBYMEe697oCmqbFb4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mqcu4RYMEe697oCmqbFb4A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Mqcu4hYMEe697oCmqbFb4A"/>
+    </ownedAttribute>
+    <interfaceRealization xmi:id="_YNc4ABYMEe697oCmqbFb4A" client="_mA2y8BYLEe697oCmqbFb4A" supplier="_o5iQQBYLEe697oCmqbFb4A" contract="_o5iQQBYLEe697oCmqbFb4A"/>
+    <ownedOperation xmi:id="_I8i5wBYMEe697oCmqbFb4A" name="showHorario"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_o5iQQBYLEe697oCmqbFb4A" name="FNGestiaArchivoHorario">
+    <ownedOperation xmi:id="_vzS9YBYLEe697oCmqbFb4A" name="fnReadHorarioAlumnos">
+      <ownedParameter xmi:id="_xpuTgBYLEe697oCmqbFb4A" name="fnDirectorioHorarios" type="_DEnH8BYKEe697oCmqbFb4A"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_v4VOYBYLEe697oCmqbFb4A" name="fnShowEspecialidad"/>
+    <ownedOperation xmi:id="_v9NuYBYLEe697oCmqbFb4A" name="fnShowAlumnos"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MqUzEBYMEe697oCmqbFb4A" memberEnd="_MqbgwBYMEe697oCmqbFb4A _Mqcu4BYMEe697oCmqbFb4A"/>
+</uml:Model>

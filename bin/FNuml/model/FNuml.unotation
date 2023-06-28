@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<unotation:UmlDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/glsp/notation" xmlns:unotation="http://www.eclipsesource.com/glsp/uml/unotation" diagramType="CLASS">
+  <semanticElement elementId="_teAy8RYJEe697oCmqbFb4A"/>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_wSj-MBYJEe697oCmqbFb4A"/>
+    <position x="300.0" y="-170.0"/>
+    <size width="423.6953115463257" height="498.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_Ass1YBYKEe697oCmqbFb4A"/>
+    <position x="-80.0" y="-130.0"/>
+    <size width="245.6067657470703" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_CcUY4BYKEe697oCmqbFb4A"/>
+    <position x="-30.0" y="-20.0"/>
+    <size width="161.90103149414062" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_CzlpYBYKEe697oCmqbFb4A"/>
+    <position x="-30.0" y="110.0"/>
+    <size width="161.90103149414062" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_DEnH8BYKEe697oCmqbFb4A"/>
+    <position x="-30.0" y="220.0"/>
+    <size width="161.90103149414062" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_Hh2vUBYKEe697oCmqbFb4A"/>
+    <position x="-80.0" y="340.0"/>
+    <size width="242.3645782470703" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_ScKgwBYKEe697oCmqbFb4A"/>
+    <position x="-60.0" y="470.0"/>
+    <size width="224.8515625" height="76.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_CS46oBYLEe697oCmqbFb4A"/>
+    <position x="340.0" y="490.0"/>
+    <size width="415.1275930404663" height="129.5"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_SsdKEBYLEe697oCmqbFb4A"/>
+    <position x="-100.0" y="620.0"/>
+    <size width="373.92967891693115" height="173.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_mA2y8BYLEe697oCmqbFb4A"/>
+    <position x="1120.0" y="600.0"/>
+    <size width="209.2786455154419" height="106.0"/>
+  </elements>
+  <elements xsi:type="notation:Shape">
+    <semanticElement elementId="_o5iQQBYLEe697oCmqbFb4A"/>
+    <position x="930.0" y="50.0"/>
+    <size width="160.0" height="50.0"/>
+  </elements>
+  <elements xsi:type="notation:Edge">
+    <semanticElement elementId="_MqUzEBYMEe697oCmqbFb4A"/>
+  </elements>
+  <elements xsi:type="notation:Edge">
+    <semanticElement elementId="_U50kEBYMEe697oCmqbFb4A"/>
+  </elements>
+  <elements xsi:type="notation:Edge">
+    <semanticElement elementId="_YNc4ABYMEe697oCmqbFb4A"/>
+  </elements>
+</unotation:UmlDiagram>

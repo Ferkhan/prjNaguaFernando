@@ -1,4 +1,4 @@
-package FNPackage;
+package BL;
 
 public interface FNGestiaArchivoHorario {
     public void fnReadHorarioMedicos(String directorioHorarios);

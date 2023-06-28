@@ -1,15 +1,16 @@
 import java.util.Scanner;
 
-import FNPackage.FNHorario;
+import BL.FNHorario;
 import FNUtility.FNUtileria;
 
-public class App {
+public class FNApp {
 
     protected static Scanner fnScanner = new Scanner(System.in);
     static String[] fnListaUsuarios = {"fernando.nagua@epn.edu.ec", "profe"};
     static String[] fnListaClaves = {"1724721301", "1234"};
     static String fnUsuarioAutenticado = "";
     private String fnHorarioRutaDirectorio = "..\rsc";
+
     public static void main(String[] args) throws Exception {
         int fnOpcMenu = 1;
         FNHorario fnH = new FNHorario();
@@ -27,27 +28,23 @@ public class App {
                         fnH.fnReadHorarioMedicos("src\\BL\\Horarios\\202110105-CHUNCHO JIMENEZ ANGEL DAVID.csv");
                         break;
                     case 3:
-
+                        
                         break;
                     case 4:
 
                         break;
-                    default: 
-                        System.out.println("\nRegresa pronto " + fnUsuarioAutenticado);
                 }
-                System.out.println("\n<< Presione ENTER para volver al menú principal >>");
-                fnScanner.nextLine();
-                FNUtileria.fnLimpiarConsola();
+                if (fnOpcMenu > 0 && fnOpcMenu <= 4) {
+                    System.out.println("\n<< Presione ENTER para volver al menú principal >>");
+                    fnScanner.nextLine();
+                    FNUtileria.fnLimpiarConsola();
+                }
 
             }
         } else {
             System.out.println("Gracias");
         }
-
-
-        
-
-
+        System.out.println("\nRegresa pronto " + fnUsuarioAutenticado);
     }
 
     /**
@@ -104,6 +101,10 @@ public class App {
         return fnAcceso;
     }
 
+    /**
+     * Menú principal
+     * @return variable int
+     */
     private static int fnMenu() {
         int fnOpcMenu;
         System.out.println("------------------------");
