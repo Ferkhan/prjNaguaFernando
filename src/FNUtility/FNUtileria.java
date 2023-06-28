@@ -1,5 +1,6 @@
 package FNUtility;
 
+import java.io.File;
 import java.util.Scanner;
 
 public class FNUtileria {
@@ -56,6 +57,19 @@ public class FNUtileria {
         } while (fnNumero < 0 || fnNumero > 4);
 
         return fnNumero;
+    }
+
+    public static String fnGetNombreArchivo(String fnRuta) {
+        File fnArchivo = new File(fnRuta);
+        String fnNombre = fnArchivo.getName();
+        int fnIndiceExtension = fnNombre.lastIndexOf(".");
+
+
+        if (fnIndiceExtension != -1) {
+            fnNombre = fnNombre.substring(0, fnIndiceExtension);
+        }
+
+        return fnNombre;
     }
 
 }
