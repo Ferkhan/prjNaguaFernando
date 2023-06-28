@@ -5,14 +5,21 @@ import java.util.Scanner;
 
 public class FNUtileria {
     private static Scanner fnScanner = new Scanner(System.in);
-
+    public static String reset = "\u001B[0m";
+    public static String red = "\u001B[31m";
+    public static String green = "\u001B[32m";
+    public static String yellow = "\u001B[33m";
+    public static String blue = "\u001B[34m";
+    public static String purple = "\u001B[35m";
+    public static String cyan = "\u001B[36m";
+    
     /**
      * Imprime en pantalla las credenciales del autor
      */
     public static void fnDatosPersonales() {
-        System.out.println("CEDULA:  1724721301");
-        System.out.println("CORREO:  FERNANDO.NAGUA@EPN.EDU.EC");
-        System.out.println("NOMBRE:  fernando alexander nagua uyaguari");
+        System.out.println(green + "CEDULA:  " + cyan + "1724721301" + reset);
+        System.out.println(green + "CORREO:  " + cyan + "FERNANDO.NAGUA@EPN.EDU.EC" + reset);
+        System.out.println(green + "NOMBRE:  " + cyan + "fernando alexander nagua uyaguari" + reset);
 
     }
 
